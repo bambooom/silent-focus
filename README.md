@@ -1,33 +1,16 @@
 <div align="center">
-<img src="public/icon-128.png" alt="logo"/>
-<h1> Chrome Extension Boilerplate with<br/>React + Vite + TypeScript</h1>
-
-![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![](https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![](https://badges.aleen42.com/src/vitejs.svg)
-![GitHub action badge](https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite/actions/workflows/build.yml/badge.svg)
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Jonghakseo/chrome-extension-boilerplate-react-viteFactions&count_bg=%23#222222&title_bg=%23#454545&title=😀&edge_flat=true" alt="hits"/>
+<!-- <img src="public/icon-128.png" alt="logo"/> -->
+<h1> Silent Focus </h1>
 
 
-> This project is listed in the [Awesome Vite](https://github.com/vitejs/awesome-vite)
+![GitHub action badge](https://github.com/bambooom/silent-focus/actions/workflows/build.yml/badge.svg)
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbambooom%2Fsilent-focus&count_bg=%23E7B3EB&title_bg=%23555555&icon=&icon_color=%23EDCFEF&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
 
 </div>
 
-## Table of Contents
-
-- [Intro](#intro)
-- [Features](#features)
-- [Installation](#installation)
-  - [Procedures](#procedures)
-- [Screenshots](#screenshots)
-  - [NewTab](#newtab)
-  - [Popup](#popup)  
-- [Documents](#documents)
-
-
 ## Intro <a name="intro"></a>
-This boilerplate is made for creating chrome extensions using React and Typescript.
-> The focus was on improving the build speed and development experience with Vite.
+A chrome extension to get focus and block distracting websites.
 
 ## Features <a name="features"></a>
 - [React 18](https://reactjs.org/)
@@ -44,7 +27,7 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 
 ### Procedures <a name="procedures"></a>
 1. Clone this repository.
-2. Change `name` and `description` in package.json => **Auto synchronize with manifest** 
+2. Change `name` and `description` in package.json => **Auto synchronize with manifest**
 3. Run `yarn` or `npm i` (check your node version >= 16)
 4. Run `yarn dev` or `npm run dev`
 5. Load Extension on Chrome
@@ -72,17 +55,3 @@ This boilerplate is made for creating chrome extensions using React and Typescri
 - [ChromeExtension](https://developer.chrome.com/docs/extensions/mv3/)
 - [Rollup](https://rollupjs.org/guide/en/)
 - [Rollup-plugin-chrome-extension](https://www.extend-chrome.dev/rollup-plugin)
-
-
-
----
-## Thanks To
-
-| [Jetbrains](https://jb.gg/OpenSourceSupport)                                                                           | [Jackson Hong](https://www.linkedin.com/in/j-acks0n/)                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| <img width="100" src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.png" alt="JetBrains Logo (Main) logo."> | <img width="100" src='https://avatars.githubusercontent.com/u/23139754?v=4' alt='Jackson Hong'/> |
-
-
----
-
-[Jonghakseo](https://nookpi.tistory.com/)

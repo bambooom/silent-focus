@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "silent-focus",
   "version": "0.0.1",
-  "description": "chrome extension boilerplate",
+  "description": "a chrome extension for focus and block distracting websites",
   "license": "MIT",
   "repository": {
     "type": "git",
