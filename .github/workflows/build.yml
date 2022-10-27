@@ -16,8 +16,8 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        cache: 'yarn'
-    - run: yarn install
-    - run: yarn build:hmr
-    - run: yarn test
-    - run: yarn build
+        cache: 'npm'
+    - run: npm install
+    - run: npm run build:hmr
+    - run: npm run test
+    - run: npm run build
